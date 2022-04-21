@@ -6,5 +6,5 @@ ax = plt.axes(projection=ccrs.crs.LambertCylindrical())
 ax.stock_img()
 
 plt.show()
-plt.savefig('testPlot.png', transparent=True, dpi=100)
+plt.savefig('testPlot.png', transparent=True, dpi=1000)
 print('Saved plot')
